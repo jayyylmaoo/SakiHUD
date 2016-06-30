@@ -1002,17 +1002,17 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
 		"xpos"			"3"
-		"ypos"			"460"
+		"ypos"			"50"
 		"zpos"			"1"
-		"wide"			"56"
-		"tall"			"25"			
+		"wide"			"200"
+		"tall"			"30"			
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"SakiHUD"
-		"font"			"Medium14"
+		"font"			"Medium25"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
 		"use_proportional_insets"	"1"
@@ -1108,6 +1108,53 @@
 	}
 	
 	// -----------------------------------------------------------
+	
+	"Version"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"Version"
+		"xpos"			"3"
+		"ypos"			"70"
+		"zpos"			"1"
+		"wide"			"56"
+		"tall"			"25"			
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"v2016.30.06"
+		"font"			"Medium9"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets"	"1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"Button Color"
+		"depressedFgColor_override"	"Button Color"
+		
+		"image_drawcolor"	"TanLight"
+		"image_armedcolor"	"Button Color"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_quit"
+		}
+	}
 	
 	"QuickplayButton" // Start Playing
 	{
