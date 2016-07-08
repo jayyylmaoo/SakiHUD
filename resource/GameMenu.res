@@ -1,5 +1,12 @@
 "GameMenu" 
 {
+	"VersionNumber"
+	{
+		"label"	"v2016.06.29"
+		"subimage"	""
+		"OnlyAtMenu"	"0"
+	}
+
 	"QuickplayButton"
 	{
 		"label" "Start Playing"
@@ -17,7 +24,7 @@
 	"CompetitiveButton"
 	{
 		"label" "Matchmaking"
-		"command" "ladder_ui_show"
+		"command" "OpenMatchmakingLobby"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}
