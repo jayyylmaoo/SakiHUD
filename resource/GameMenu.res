@@ -9,8 +9,8 @@
 
 	"QuickplayButton"
 	{
-		"label" "Start Playing"
-		"command" "quickplay"
+		"label" "Play Casual"
+		"command" "play_casual"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
@@ -23,15 +23,15 @@
 	}
 	"CompetitiveButton"
 	{
-		"label" "Matchmaking"
-		"command" "OpenMatchmakingLobby"
+		"label" "Competitive"
+		"command" "play_competitive"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}
 	"PlayPVEButton"
 	{
-		"label" "MvM"
-		"command" "playpve"
+		"label" "Cooperative"
+		"command" "play_mvm"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
@@ -44,7 +44,7 @@
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Browse Servers"
+		"label" "Community Servers"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
