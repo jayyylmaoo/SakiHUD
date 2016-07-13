@@ -344,6 +344,7 @@
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"206 192 115 255"
+			"actionsignallevel"	"2"
 
 			"SubImage"
 			{
@@ -429,6 +430,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
+			"actionsignallevel"	"2"
 			"brighttext"	"0"
 			"default"		"0"
 
@@ -808,6 +810,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"actionsignallevel"	"2"
 
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"
@@ -875,6 +878,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			"actionsignallevel"	"2"
 
 			"Command"		"noti_hide"
 			"navActivate"	"<QuickplayButton"
@@ -1124,7 +1128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"v2016.07.09"
+		"labelText"		"v2016.07.14"
 		"font"			"Medium9"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
@@ -3052,7 +3056,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
+		"xpos"			"c200"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"32"
