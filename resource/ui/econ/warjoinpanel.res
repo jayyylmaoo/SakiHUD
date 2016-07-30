@@ -905,6 +905,37 @@
 						"proportionaltoparent"	"1"
 					}
 				}
+				
+				"EndDateLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"EndDateLabel"'
+					"xpos"				"cs-0.5"
+					"ypos"				"0"
+					"zpos"				"500"
+					"wide"				"300"
+					"tall"					"20"
+					"autoResize"		"0"
+					"pinCorner"		"3"
+					"visible"			"1"
+					"enabled"			"1"
+					"tabPosition"		"0"
+					"textinsetx"		"25"
+					"use_proportional_insets"	"1"
+					"font"				"HudFontSmall"
+					"textAlignment"	"center"
+					"dulltext"			"0"
+					"brighttext"		"0"
+					"default"			"1"
+					"labelText"		"%end_date%"
+					
+					"fgcolor_Override"	"TanLight"
+					
+					"paintbackground"	"2"
+					"RoundCorners"		"1"
+					
+					"proportionaltoparent"	"1"
+				}
 
 				"ExplanationLabel"
 				{
