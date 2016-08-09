@@ -1,5 +1,14 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
+	
+	"HudKothTimeStatus"
+	{
+		if_match
+		{
+			"zpos"		"5"
+		}
+	}
+	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -11,6 +20,11 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
+		
+		if_match
+		{
+			
+		}
 		
 		"TimePanelValue"
 		{
@@ -27,6 +41,11 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			
+			if_match
+			{
+			
+			}
 		}
 	}
 
@@ -41,6 +60,11 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
+		
+		if_match
+		{
+			
+		}
 		
 		"TimePanelValue"
 		{
@@ -57,6 +81,11 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			
+			if_match
+			{
+			
+			}
 		}	
 	}
 
@@ -81,6 +110,13 @@
 			
 		"draw_corner_width"		"3"			
 		"draw_corner_height" 	"3"
+		
+		
+		if_match
+		{
+			"visible"		"0"
+		}
+		
 	}
 
 	"RedBG"
@@ -104,6 +140,11 @@
 			
 		"draw_corner_width"		"3"			
 		"draw_corner_height" 	"3"
+		
+		if_match
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"ActiveTimerBG"

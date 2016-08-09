@@ -2,7 +2,7 @@
 {
 	"VersionNumber"
 	{
-		"label"	"v2016.06.29"
+		"label"	"v2016.08.09"
 		"subimage"	""
 		"OnlyAtMenu"	"0"
 	}

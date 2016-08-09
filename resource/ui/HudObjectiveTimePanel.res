@@ -18,6 +18,11 @@
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
+		
+		if_match
+		{
+			"visible"		"0"
+		}
 
 	}
 	"TimePanelProgressBar"
