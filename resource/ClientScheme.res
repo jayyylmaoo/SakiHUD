@@ -501,7 +501,19 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-
+		
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name" "Verdana"
+				"tall" "6"
+				"weight" "400"
+				"additive" "0"
+				"antialias" "1"
+			}
+		}
+		
 		"Default"
 		{
 			"1"
@@ -510,6 +522,32 @@ Scheme
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		
+		"XPSource"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "11"
+				"weight" "500"
+				"antialias" "1"
+				"custom" "1"
+			}
+		}
+		
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name" "TF2 Build"
+				"tall" "11"
+				"weight" "500"
+				"blur" "3"
+				"additive" "1"
+				"antialias" "1"
+				"custom" "1"
 			}
 		}
 
@@ -4267,6 +4305,30 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		OuterShadowBorder
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "2"
+			
+			"image" "outer_shadow_border"
+			"src_corner_height" "8" // pixels inside the image
+			"src_corner_width" "8"
+			"draw_corner_width" "8" // screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "8"
+		}
+		
+		OuterShadowBorderThin
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "2"
+			
+			"image" "outer_shadow_border"
+			"src_corner_height" "8" // pixels inside the image
+			"src_corner_width" "8"
+			"draw_corner_height" "8" // screen size of ther corners ( and sides ), proportional
+			"draw_corner_width" "8"
+		}
+	
 		NoBorder
 		{
 			"inset" "0 0 0 0"
