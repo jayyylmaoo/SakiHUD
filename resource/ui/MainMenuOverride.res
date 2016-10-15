@@ -1128,7 +1128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"v2016.08.09"
+		"labelText"		"v2016.10.15"
 		"font"			"Medium9"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
