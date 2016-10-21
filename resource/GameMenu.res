@@ -1,11 +1,5 @@
 "GameMenu" 
 {
-	{
-		"label"	"v2016.08.09"
-		"subimage"	""
-		"OnlyAtMenu"	"0"
-	}
-
 	"QuickplayButton"
 	{
 		"label" "Play Casual"
