@@ -1,7 +1,7 @@
 # SakiHUD
-This is where you will be able to grab the newest build of the HUD whenever a new one comes out.
+This HUD is usually updated whenever a new update comes out that affects the HUD.
 
-Feel free to notify me of any issues that you may be having with the hud.
+Feel free to notify me of any problems there may be with the HUD.
 
 http://steamcommunity.com/id/xJeebsx
 
