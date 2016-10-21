@@ -1,5 +1,12 @@
 "GameMenu" 
 {
+	"VersionNumber"
+	{
+		"label"	"v2016.08.09"
+		"subimage"	""
+		"OnlyAtMenu"	"0"
+	}
+
 	"QuickplayButton"
 	{
 		"label" "Play Casual"
@@ -10,7 +17,7 @@
 	"QuickplayChangeButton"
 	{
 		"label" "New Game"
-		"command" "play_casual"
+		"command" "quickplay"
 		"subimage" "glyph_practice"
 		"OnlyInGame" "1"
 	}
@@ -23,7 +30,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "Co-Operative"
+		"label" "Cooperative"
 		"command" "play_mvm"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"

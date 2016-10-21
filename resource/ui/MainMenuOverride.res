@@ -1114,11 +1114,11 @@
 		}
 	}
 	
-	"Version" // Client Version
+	"Version"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Version"
-		"xpos"			"58.5"
+		"xpos"			"58"
 		"ypos"			"70"
 		"zpos"			"1"
 		"wide"			"56"
@@ -1128,7 +1128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"v2016.10.21"
+		"labelText"		"v2016.08.09"
 		"font"			"Medium9"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
@@ -1206,7 +1206,7 @@
 			
 			"FgColor" "255 255 255 255"
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1268,7 +1268,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1336,7 +1336,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1399,7 +1399,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1464,7 +1464,7 @@
 			"FgColor"	"255 255 255 255"
 			
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"0 255 255 255"
+			"armedFgColor_override"		"Garm3nArmedText"
 			"depressedFgColor_override"	"Garm3nMenu"
 			
 			"image_drawcolor"		"0 0 0 0"
@@ -1519,7 +1519,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1581,7 +1581,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1650,7 +1650,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1719,8 +1719,7 @@
 
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1788,7 +1787,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1856,7 +1855,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1924,7 +1923,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1993,7 +1992,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2061,7 +2060,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2129,7 +2128,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2197,7 +2196,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2265,7 +2264,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2333,7 +2332,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2396,7 +2395,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2459,7 +2458,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "0 255 255 255"
+			"armedFgColor_override" "Garm3nArmedText"
 			"depressedFgColor_override" "Garm3nMenu"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -3053,12 +3052,12 @@
 		}		
 	}	
 	
-"WatchStreamButton"
+		"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
-		"ypos"			"28"
+		"xpos"			"c200"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -3125,23 +3124,23 @@
 			}		
 		}
 	}
-
+	
 	"StreamListPanel"
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"500"
+		"ypos"			"90"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
+		"tall"			"325"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
+		"paintbackground"		"0"
+		"bgcolor_override"		"25 25 25 230"
 		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+		
+		"navdown"	"SettingsButton"
+		"navleft"	"WatchStreamButton"
 	}
 	
 	"NewUserForumHighlight"
