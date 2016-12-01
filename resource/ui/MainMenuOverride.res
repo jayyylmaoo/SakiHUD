@@ -190,6 +190,21 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
+		"TFLogoImage" // Team Fortress 2 Logo
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFLogoImage"
+		"xpos"			"c-300"
+		"ypos"			"75"
+		"zpos"			"-99"
+		"wide"			"192"
+		"tall"			"48"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../logo/new_tf2_logo"
+		"scaleImage"	"1"
+	}
 
 	"LabelsBG" // Background for menu butttons.
 	{
@@ -203,21 +218,6 @@
 		"fillcolor"		"0 0 0 240"
 		"visible"		"1"
 		"enabled"		"1"
-	}
-
-	"TFLogoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TFLogoImage"
-		"xpos"			"c-300"
-		"ypos"			"75"
-		"zpos"			"-99"
-		"wide"			"192"
-		"tall"			"48"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
-		"scaleImage"	"1"
 	}	
 	
 	"MainMenuBGPanel"
@@ -1118,7 +1118,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Version"
-		"xpos"			"58.5"
+		"xpos"			"68.5"
 		"ypos"			"70"
 		"zpos"			"1"
 		"wide"			"56"
@@ -1128,7 +1128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"v2016.11.14"
+		"labelText"		"v2016.12.2"
 		"font"			"Medium9"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
