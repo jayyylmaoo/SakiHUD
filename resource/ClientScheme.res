@@ -550,6 +550,19 @@ Scheme
 				"custom" "1"
 			}
 		}
+		
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"	 		"TF2 Build"
+				"tall"	 		"12"
+				"weight" 		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
 
 		"DefaultUnderline"
 		{
