@@ -1065,23 +1065,25 @@
 	//	}
 	//}
 	
-	// -----------------------------------------------------------
-
-	"HudName"
+	// -----------------------------
+	// MAIN MENU BUTTONS BEGIN HERE
+	// -----------------------------
+	
+		"HudName"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"40"
+		"xpos"			"30"
 		"ypos"			"50"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"500"
 		"tall"			"30"			
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"SakiHUD"
+		"labelText"		"— SakiHUD —"
 		"font"			"Medium25"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
@@ -1118,7 +1120,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Version"
-		"xpos"			"68.5"
+		"xpos"			"80"
 		"ypos"			"70"
 		"zpos"			"1"
 		"wide"			"56"
@@ -1128,7 +1130,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"v2016.12.22"
+		"labelText"		"v2016.12.31"
 		"font"			"Medium9"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
@@ -2480,6 +2482,10 @@
 			}		
 		}
 	}
+	
+	// ----------------------
+	// MAIN MENU BUTTONS END
+	// ----------------------
 
 	"StoreBGPanel"
 	{

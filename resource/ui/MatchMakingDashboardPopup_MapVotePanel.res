@@ -71,6 +71,8 @@
 		"enabled"		"1"
 		"font"			"MapVotesPercentage"
 		"fgcolor_override"	"TanLight"
+		"textAlignment"		"south"
+		"labelText"			"%votes%"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 	}
