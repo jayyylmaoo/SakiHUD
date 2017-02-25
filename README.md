@@ -1,8 +1,8 @@
 # SakiHUD
-This HUD is usually updated whenever a new update comes out that affects the HUD.
+This is the HUD that Sakiisa is almost always seen using.
+Here is where it will constantly be updated.
+The updates are usually pushed out the day of or week of an update being released.
 
-Feel free to notify me of any problems there may be with the HUD.
-
-http://steamcommunity.com/id/xJeebsx
+If you encounter any issues, add me on steam! http://steamcommunity.com/id/xJeebsx
 
 Enjoy! =]
