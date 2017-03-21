@@ -120,8 +120,8 @@
 		"font"			"Medium14"
 		"fgcolor"		"Garm3nMenu"
 		"defaultFgColor_override" "Garm3nMenu"
-		"armedFgColor_override" "Garm3nArmedText"
-		"depressedFgColor_override" "Garm3nMenu"
+		"armedFgColor_override" "252 194 0 255"
+		"depressedFgColor_override" "252 194 0 255"
 	}
 	
 	"MapInfoWatchIntro" 
@@ -145,8 +145,8 @@
 		"font"			"Medium9"
 		"fgcolor"		"Garm3nMenu"
 		"defaultFgColor_override" "Garm3nMenu"
-		"armedFgColor_override" "Garm3nArmedText"
-		"depressedFgColor_override" "Garm3nMenu"
+		"armedFgColor_override" "252 194 0 255"
+		"depressedFgColor_override" "252 194 0 255"
 	}
 
 	"MapInfoBack" 

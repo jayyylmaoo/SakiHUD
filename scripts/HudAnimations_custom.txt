@@ -6,7 +6,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		        Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"Garm3nPlus"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	                FgColor		"252 194 0 255"	        Accel 0.0 0.0
 
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
 
