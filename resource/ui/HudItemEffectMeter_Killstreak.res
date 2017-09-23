@@ -89,7 +89,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		"252 194 0 255"
+		"fgcolor"		"Garm3nYellow"
 		"font"				"NumbersMedium23"
 	}
 

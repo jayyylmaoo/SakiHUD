@@ -140,8 +140,8 @@
 		"paintbackground"	"0"
 		"fgcolor"		"Garm3nMenu"
 		"defaultFgColor_override" "Garm3nMenu"
-		"armedFgColor_override" "252 194 0 255"
-		"depressedFgColor_override" "252 194 0 255"
+		"armedFgColor_override" "195 195 195 255"
+		"depressedFgColor_override" "Garm3nMenu"
 	}
 
 	"teambutton1"
@@ -173,8 +173,8 @@
 		"paintbackground"	"0"
 		"fgcolor"		"Garm3nMenu"
 		"defaultFgColor_override" "Garm3nMenu"
-		"armedFgColor_override" "252 194 0 255"
-		"depressedFgColor_override" "252 194 0 255"
+		"armedFgColor_override" "195 195 195 255"
+		"depressedFgColor_override" "Garm3nMenu"
 	}
 
 	"teambutton2"
@@ -204,8 +204,8 @@
 		"paintbackground"	"0"
 		"fgcolor"		"Garm3nMenu"
 		"defaultFgColor_override" "Garm3nMenu"
-		"armedFgColor_override" "252 194 0 255"
-		"depressedFgColor_override" "252 194 0 255"
+		"armedFgColor_override" "Garm3nArmedText"
+		"depressedFgColor_override" "Garm3nMenu"
 	}
 
 	"teambutton3"
@@ -235,8 +235,8 @@
 		"paintbackground"	"0"
 		"fgcolor"		"Garm3nMenu"
 		"defaultFgColor_override" "Garm3nMenu"
-		"armedFgColor_override" "252 194 0 255"
-		"depressedFgColor_override" "252 194 0 255"
+		"armedFgColor_override" "Garm3nArmedText"
+		"depressedFgColor_override" "Garm3nMenu"
 	}
 	
 	"CancelButton"  

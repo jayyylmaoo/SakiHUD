@@ -6,7 +6,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		        Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"252 194 0 255"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	                FgColor		"Garm3nPlus"	        Accel 0.0 0.0
 
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Garm3nPlus"	        Accel 0.0 0.0
 
@@ -276,3 +276,21 @@ event WinPanel_NormalPos
 }
 
 //===========================================
+
+event CompetitiveGame_LowerChatWindow
+{
+	Animate HudChat ypos r450 Accel 0 0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos r450 Accel 0 0
+}
+
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 10
+}
+
+//--------------------------------------------------------------------------
