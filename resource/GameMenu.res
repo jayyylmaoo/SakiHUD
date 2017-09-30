@@ -9,7 +9,7 @@
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "New Game"
+		"label" "Play Casual"
 		"command" "play_casual"
 		"subimage" "glyph_practice"
 		"OnlyInGame" "1"
