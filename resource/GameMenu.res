@@ -1,33 +1,5 @@
 "GameMenu" 
 {
-	"QuickplayButton"
-	{
-		"label" "Play Casual"
-		"command" "play_casual"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Play Casual"
-		"command" "play_casual"
-		"subimage" "glyph_practice"
-		"OnlyInGame" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive"
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Co-Operative"
-		"command" "play_mvm"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
 	"CreateServerButton"
 	{
 		"label" "Create Server"
