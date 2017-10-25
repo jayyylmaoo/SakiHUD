@@ -206,15 +206,18 @@
 		"scaleImage"	"1"
 	}
 
+	
 	"LabelsBG" // Background for menu butttons.
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LabelsBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-9"
+		"zpos"			"-53"
 		"wide"			"200"
 		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"fillcolor"		"0 0 0 240"
 		"visible"		"1"
 		"enabled"		"1"
@@ -225,8 +228,9 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"-270"
-		"ypos"			"cs-0.5-120"
+		"xpos"			"cs-0.5-418"
+		"ypos"			"cs-0.5-206"
+		
 		"zpos"			"-51"
 		"wide"			"1000"
 		"tall"			"1000"
@@ -237,11 +241,6 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		
 		"show_progress"	"0"
-		
-		if_halloween
-		{
-			"visible"		"0"
-		}
 	}
 	
 	// Casual Progress Panel
@@ -249,10 +248,10 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"145"
-		"ypos"			"72"
+		"xpos"			"0"
+		"ypos"			"-2"
 		"zpos"			"-52"
-		"wide"			"320"
+		"wide"			"155"
 		"tall"			"100"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -843,138 +842,12 @@
 		"visible"		"0"
 	}
 	
-	"FriendsContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"FriendsContainer"
-		"xpos"			"205"
-		"ypos"			"300"
-		"zpos"			"5"
-		"wide"			"260"
-		"tall"			"150"
-		"visible"		"1"
-		
-		"border"		"MainMenuBGBorder"
-		
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"	
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_Competitive_Friends"
-			"textAlignment"	"west"
-			"xpos"			"12"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"235 227 204 255"
-		}
-		
-		"InnerShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"InnerShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
-			"zpos"			"501"
-			"wide"			"f20"
-			"tall"			"110"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			
-			"paintborder"	"1"
-			"border"		"InnerShadowBorder"
-		}
-		
-		"SteamFriendsList"
-		{
-			"ControlName"	"CSteamFriendsListPanel"
-			"fieldName"		"SteamFriendsList"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
-			"zpos"			"500"
-			"wide"			"f20"
-			"tall"			"110"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			
-			"columns_count"		"2"
-			"inset_x"			"10"
-			"inset_y"			"5"
-			"row_gap"			"5"
-			"column_gap"		"20"
-			"restrict_width"	"0"
-		
-			"friendpanel_kv"
-			{
-				"wide"	"100"
-				"tall"	"20"
-			}
-		
-			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"5"
-				"zpos"			"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
-		
-				"Slider"
-				{
-					"fgcolor_override"	"TanDark"
-				}
-		
-				"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
-		
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"	
-					"visible"		"0"
-				}
-			}
-		}
-	
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"	
-			"fieldname"		"BelowDarken"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
-			"zpos"			"499"
-			"wide"			"f20"
-			"tall"			"110"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-		
-			"bgcolor_override"	"0 0 0 100"
-		}	
-	}
-	
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EventPromo"
-		"xpos"			"205"
-		"ypos"			"160"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-50"
 		"wide"			"270"
 		"tall"			"96"
@@ -1406,7 +1279,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"v2017.10.21"
+		"labelText"		"v2017.10.25"
 		"font"			"Medium9"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
