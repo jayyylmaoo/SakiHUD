@@ -207,10 +207,10 @@
 	}
 
 	
-	"LabelsBG" // Background for menu butttons.
+	"MainMenuBG" // Background for menu butttons.
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"LabelsBG"
+		"fieldName"		"MainMenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-53"
@@ -1317,7 +1317,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
 		"xpos"			"3"
-		"ypos"			"162"
+		"ypos"			"142"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"

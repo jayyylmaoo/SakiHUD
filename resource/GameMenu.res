@@ -5,7 +5,7 @@
 		"label" "Create Server"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
+		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
