@@ -251,8 +251,8 @@
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"-52"
-		"wide"			"155"
-		"tall"			"100"
+		"wide"			"200"
+		"tall"			"150"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
@@ -261,6 +261,119 @@
 		"xp_source_notification_center_x"	"350"
 		
 		"show_model"	"0"
+	}
+	
+	// Steam Friends
+	"FriendsContainer"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"FriendsContainer"
+		"xpos"					"9"
+		"ypos"					"370"
+		"zpos"					"5"
+		"wide"					"200"
+		"tall"					"70"
+		"visible"				"1"
+		
+		"border"				"NoBorder"
+		
+		"TitleLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"TitleLabel"
+			"font"					"HudFontSmallBold"
+			"labelText"				"#TF_Competitive_Friends"
+			"textAlignment"			"west"
+			"xpos"					"0"
+			"ypos"					"0"
+			"wide"					"0"
+			"tall"					"0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"textinsetx"			"0"
+			"fgcolor_override"		"TanLight"
+		}
+		
+		"InnerShadow"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"InnerShadow"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"SteamFriendsList"
+		{
+			"ControlName"			"CSteamFriendsListPanel"
+			"fieldName"				"SteamFriendsList"
+			"xpos"					"cs-0.5"
+			"ypos"					"rs1-10"
+			"zpos"					"500"
+			"wide"					"f20"
+			"tall"					"110"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+			
+			"columns_count"			"3"
+			"inset_x"				"0"
+			"inset_y"				"5"
+			"row_gap"				"3"
+			"column_gap"			"0"
+			"restrict_width"		"0"
+			
+			"friendpanel_kv"
+			{
+				"wide"		"100"
+				"tall"		"20"
+			}
+			
+			"ScrollBar"
+			{
+				"ControlName"			"ScrollBar"
+				"fieldname"				"ScrollBar"
+				"xpos"					"rs1-1"
+				"ypos"					"0"
+				"tall"					"f0"
+				"wide"					"5"
+				"zpos"					"1000"
+				"nobuttons"				"1"
+				"proportionaltoparent"	"1"
+				
+				"Slider"
+				{
+					"fgcolor_override"			"TanDark"
+				}
+				
+				"UpButton"
+				{
+					"ControlName"			"Button"
+					"FieldName"				"UpButton"
+					"visible"				"0"
+				}
+				
+				"DownButton"
+				{
+					"ControlName"			"Button"
+					"fieldName"				"DownButton"
+					"visible"				"0"
+				}
+			}
+		}
+		
+		"BelowDarken"
+		{
+			"ControlName"			"EditablePanel"
+			"FieldName"				"BelowDarken"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
 	}
 	
 	"TooltipPanel"
@@ -316,14 +429,14 @@
 			"auto_wide_tocontents" "1"
 		}
 	}	
-	
+	// MOTD BUTTON
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c260"
+		"xpos"			"c268"
 		"ypos"			"28"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"
@@ -375,8 +488,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"0" // 32
-				"tall"			"0" // 32
+				"wide"			"32" // 32
+				"tall"			"32" // 32
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_MOTD"
@@ -842,6 +955,7 @@
 		"visible"		"0"
 	}
 	
+	// Broken for whatever reason.
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
@@ -884,6 +998,7 @@
 		}
 	}
 	
+	// NEW ITEMS BUTTON
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1166,6 +1281,9 @@
 		"fillcolor"		"0 0 0 120"
 	}
 	
+	
+	// NO LONGER WORKS AFTER MYM UPDATE
+	// ---------------------------------------------
 	//"AvatarImage"
 	//{
 	//	"ControlName"	"CAvatarImagePanel"
@@ -1213,6 +1331,7 @@
 	//	"enabled"			"1"
 	//	}
 	//}
+	// ---------------------------------------------
 	
 	// -----------------------------
 	// MAIN MENU BUTTONS BEGIN HERE
@@ -1269,7 +1388,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Version"
-		"xpos"			"80"
+		"xpos"			"75"
 		"ypos"			"70"
 		"zpos"			"1"
 		"wide"			"56"
@@ -1279,9 +1398,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"v2017.10.25"
+		"labelText"		"v4.3"
 		"font"			"Medium9"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"use_proportional_insets"	"1"
 		"dulltext"		"0"
@@ -1317,7 +1436,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
 		"xpos"			"3"
-		"ypos"			"142"
+		"ypos"			"122"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1380,7 +1499,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"3"
-		"ypos"			"162"
+		"ypos"			"142"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1448,7 +1567,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
 		"xpos"			"3"
-		"ypos"			"162"
+		"ypos"			"142"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1510,7 +1629,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"3"
-		"ypos"			"142"
+		"ypos"			"122"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1579,7 +1698,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"3"
-		"ypos"			"180"
+		"ypos"			"162"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1649,7 +1768,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"3"
-		"ypos"			"198"
+		"ypos"			"182"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1717,7 +1836,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButton"
 		"xpos"			"3"
-		"ypos"			"252"
+		"ypos"			"242"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -1785,7 +1904,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"3"
-		"ypos"			"270"
+		"ypos"			"262"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -1853,7 +1972,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"3"
-		"ypos"			"216"
+		"ypos"			"202"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -1922,7 +2041,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"3"
-		"ypos"			"234"
+		"ypos"			"222"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -1990,7 +2109,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"3"
-		"ypos"			"360"
+		"ypos"			"342"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -2058,7 +2177,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"3"
-		"ypos"			"288"
+		"ypos"			"282"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -2126,7 +2245,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
 		"xpos"			"3"
-		"ypos"			"324"
+		"ypos"			"322"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -2194,7 +2313,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		"xpos"			"3"
-		"ypos"			"306"
+		"ypos"			"302"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -2266,7 +2385,7 @@
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 
 		"SubButton"
