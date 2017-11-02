@@ -4476,6 +4476,46 @@ Scheme
 			"draw_corner_height"	"24"
 		}
 		
+		sakihudPanelBorder
+		{
+			"inset"	"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color"	"0 0 0 200"
+					"offset"	"0 0"
+				}
+			}
+			
+			Right
+			{
+				"1"
+				{
+					"color"	"0 0 0 200"
+					"offset"	"0 0"
+				}
+			}
+			
+			Top
+			{
+				"1"
+				{
+					"color"	"0 0 0 200"
+					"offset"	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color"	"0 0 0 200"
+					"offset"	"0 0"
+				}
+			}			
+		}
+		
 		CYOAPopupBorder
 		{
 			"inset"	"0 0 1 1"
