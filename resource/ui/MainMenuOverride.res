@@ -892,7 +892,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_Alert"
+				"image"			"replay/thumbnails/buttons/alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -1261,10 +1261,10 @@
 	// MAIN MENU BUTTONS BEGIN HERE
 	// -----------------------------
 
-		"sakihudlabel"
+		"sakihudLabel"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"sakihudlabel"
+		"fieldName"		"sakihudLabel"
 		"font"			"Medium35"
 		"labelText"		"SakiHUD"		
 		"textAlignment"	"center"		
@@ -1289,7 +1289,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"VersionLabel"
 		"font"					"Medium9"
-		"labelText"				"v2017.11.2"
+		"labelText"				"v2017.11.3"
 		"textAlignment"			"east"
 		"xpos"					"r52"
 		"ypos"					"r13"
@@ -1299,25 +1299,25 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"255 255 255 255" // White.
+		"fgcolor_override"		"White"
 	}
 	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-418"
-		"ypos"			"cs-0.5-206"
-		
+		"xpos"			"0"
+		"ypos"			"cs-0.5-85"
+
 		"zpos"			"-51"
-		"wide"			"1000"
+		"wide"			"170"
 		"tall"			"1000"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"mouseinputenabled"		"1"
-		
+		"mouseinputenabled"	"1"
+
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		
+
 		"show_progress"	"0"
 	}
 	
@@ -1326,17 +1326,17 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"0"
-		"ypos"			"-2"
+		"ypos"			"185"
 		"zpos"			"-52"
-		"wide"			"200"
-		"tall"			"150"
+		"wide"			"170"
+		"tall"			"100"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"mouseinputenabled"		"0"
-		
-		"matchgroup"		"MatchGroup_Casual_12v12"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
 		"xp_source_notification_center_x"	"350"
-		
+
 		"show_model"	"0"
 	}
 
@@ -1344,8 +1344,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"3"
-		"ypos"			"122"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1407,8 +1407,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
-		"xpos"			"3"
-		"ypos"			"142"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1475,8 +1475,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"3"
-		"ypos"			"142"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1537,8 +1537,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"3"
-		"ypos"			"122"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1606,8 +1606,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
-		"xpos"			"3"
-		"ypos"			"162"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1677,7 +1677,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"3"
-		"ypos"			"182"
+		"ypos"			"232"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -1745,7 +1745,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButton"
 		"xpos"			"3"
-		"ypos"			"242"
+		"ypos"			"292"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -1813,7 +1813,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"3"
-		"ypos"			"262"
+		"ypos"			"312"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -1881,7 +1881,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"3"
-		"ypos"			"202"
+		"ypos"			"252"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -1950,7 +1950,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"3"
-		"ypos"			"222"
+		"ypos"			"272"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -2018,7 +2018,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"3"
-		"ypos"			"342"
+		"ypos"			"392"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -2086,7 +2086,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"3"
-		"ypos"			"282"
+		"ypos"			"332"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"19"
@@ -2154,7 +2154,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
 		"xpos"			"3"
-		"ypos"			"322"
+		"ypos"			"372"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"
@@ -2222,7 +2222,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		"xpos"			"3"
-		"ypos"			"302"
+		"ypos"			"352"
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"20"

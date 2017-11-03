@@ -4476,6 +4476,39 @@ Scheme
 			"draw_corner_height"	"24"
 		}
 		
+		sakihudMenuBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		sakihudPanelBorder
 		{
 			"inset"	"0 0 0 0"
