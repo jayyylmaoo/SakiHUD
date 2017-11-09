@@ -661,7 +661,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
+	
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
