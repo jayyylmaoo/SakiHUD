@@ -373,7 +373,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"Team Fortress 2"
-			"font"				"Biko12"
+			"font"				"Biko13"
 			"textAlignment"	"west"
 			"textinsetx"	"20"
 			"dulltext"		"0"
@@ -441,7 +441,7 @@
 			"ypos"				"0"
 			"wide"				"300"
 			"tall"				"480"
-			"fillcolor"		"236 240 241 255"
+			"fillcolor"		"motd"
 		}
 
 		"MOTD_CloseButton"
@@ -459,7 +459,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"Team Fortress 2"
-			"font"				"Biko12"
+			"font"				"Biko13"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -476,12 +476,12 @@
 			"actionsignallevel" "2"
 			"paintbackground"	"1"
 
-			"defaultFgColor_override"	"236 240 241 255"
-			"defaultBgColor_override" "230 126 34 255"
-			"armedFgColor_override" "236 240 241 255"
-			"armedBgColor_override" "211 84 0 255"
-			"depressedFgColor_override" "236 240 241 255"
-			"depressedBgColor_override" "211 84 0 255"
+			"defaultFgColor_override"	"textColor"
+			"defaultBgColor_override" "motdBGActive"
+			"armedFgColor_override" "textColor"
+			"armedBgColor_override" "motdBG"
+			"depressedFgColor_override" "textColor"
+			"depressedBgColor_override" "motdBG"
 
 			"image_drawcolor"	"blank"
 			"image_armedcolor"	"blank"
@@ -505,7 +505,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"				"Biko12
+			"font"				"NewFontMedium"
 			"labelText"		"%motdtitle%"
 			"textAlignment"	"center"
 			"xpos"			"175"
@@ -517,7 +517,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"236 240 241 255"
+			"fgcolor_override"	"textColor"
 			"wrap"			"0"
 		}
 
@@ -525,7 +525,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"				"Biko12"
+			"font"				"Biko13"
 			"labelText"		"%motddate%"
 			"textAlignment"	"center"
 			"xpos"			"175"
@@ -536,7 +536,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"motdText"
 		}
 
 		"MOTD_TitleImageContainer"
@@ -577,7 +577,7 @@
 			"tall"			"110"
 			"zpos"			"10"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"motdText"
 
 			"MOTD_TextPanel"
 			{
@@ -595,7 +595,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"				"Biko12"
+					"font"				"Biko13"
 					"labelText"		"%motdtext%"
 					"textAlignment"	"north-west"
 					"xpos"			"0"
@@ -607,7 +607,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"0 0 0 255"
+					"fgcolor_override"	"motdText"
 					"wrap"			"1"
 				}
 			}
@@ -646,11 +646,11 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"236 240 241 255"
+			"defaultFgColor_override"	"textColor"
 			"defaultBgColor_override"	"blank"
-			"armedFgColor_override" "230 126 34 255"
+			"armedFgColor_override" "motdBGActive"
 			"armedBgColor_override" "255 255 255 25"
-			"depressedFgColor_override" "236 240 241 255"
+			"depressedFgColor_override" "textColor"
 		}
 
 
@@ -699,7 +699,7 @@
 					"visible"		"0"
 					"enabled"		"0"
 					"PaintBackgroundType" "0"
-					"fgcolor_override"	"236 240 241 255"
+					"fgcolor_override"	"textColor"
 					"bgcolor_override"	"blank"
 				}
 			}
@@ -781,7 +781,7 @@
 				"enabled"		"0"
 				"tabPosition"	"0"
 				"labelText"		""
-				"font"				Biko20"
+				"font"				"Biko20"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"

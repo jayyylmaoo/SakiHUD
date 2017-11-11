@@ -4529,7 +4529,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-	}
 	
 	"SakiIcons"
 	{
