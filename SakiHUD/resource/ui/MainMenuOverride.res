@@ -2874,7 +2874,7 @@
 		"xpos"			"r205"
 		"ypos"			"85"
 		"zpos"			"10"
-		"wide"			"175"
+		"wide"			"220"
 		"tall"			"480"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
