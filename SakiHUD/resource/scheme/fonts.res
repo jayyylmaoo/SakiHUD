@@ -2793,6 +2793,92 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		// BEGINNING OF CROSSHAIRS
+		
+		"CrosshairAASmall"
+        {
+			"1"
+			{
+				"name"		"crosshair"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+        "CrosshairOLSmall"
+        {
+			"1"
+			{
+				"name"		"crosshair"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}
+        "CrosshairAA"
+        {
+			"1"
+			{
+				"name"		"yacrosshair"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+        "CrosshairOL"
+        {
+			"1"
+			{
+				"name"		"crosshair"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}
+        "CrosshairAABig"
+        {
+			"1"
+			{
+				"name"		"crosshair"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+        "CrosshairOLBig"
+        {
+			"1"
+			{
+				"name"		"crosshair"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}
+		
+		"KnucklesCrosses"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias"	"0"
+			}
+		}
 
 		"CrossHairKonr"
 		{
@@ -2943,6 +3029,8 @@ Scheme
 				"antialias"	"0"
 			}
 		}
+		
+		// END OF CROSSHAIRS
 
 		"HudFontGiant"
 		{
@@ -4835,6 +4923,16 @@ Scheme
 		{
 			"font" "resource/fonts/Surface_Numbers.otf"
 			"name" "Surface-Numbers"
+		}
+		"21" 
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}
+		"22" 
+		{
+			"font" "resource/fonts/crosshair.ttf"
+			"name" "crosshair"
 		}
 	}
 }

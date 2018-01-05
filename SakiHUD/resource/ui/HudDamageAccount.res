@@ -9,7 +9,7 @@
 		"PositiveColor"			"Garm3nDamage"
 		"NegativeColor"			"Garm3nGreen"
 		"delta_lifetime"		"2.0"
-		"delta_item_font"	"NumbersMedium19OT"
+		"delta_item_font"		"NumbersMedium19OT"
 		"delta_item_font_big"	"NumbersMedium19OT"
 	}
 

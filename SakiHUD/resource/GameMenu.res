@@ -157,21 +157,18 @@
 	"hudCredits"
 	{
 	   "label" "SakiHUD"
-	   "command"
-	    "
-					engine play vo/scout_domination19.mp3
-	    			engine showconsole;clear;
-	    			echo ------------------------------------------------------------------------;
-	    			echo ---------------------- SPECIAL THANKS TO -------------------------------;
-	    			echo ------------------------------------------------------------------------;
-	    			echo;
-	    			echo - Sakiisa for somewhat testing the HUD and being greatly supportive!;
-	    			echo - luna for actually testing the HUD comp wise and also being supportive!;
-	    			echo - Everyone else for being supportive of the entire thing;
-	    			echo;
-	    			echo ------------------------------------------------------------------------;
+		"command"		"engine con_enable 1;showconsole;clear;
+						echo ==============================================================;
+						echo ~~~~~~~~~~~~~~~~~~~~ SakiHUD, by xJeebsx ~~~~~~~~~~~~~~~~~~~~~;
+						echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
+						echo ==============================================================;
+						echo ~~~~~~~~~~~~~~~~ github.com/xjeebsx/sakihud ~~~~~~~~~~~~~~~~~~;
+						echo ~~~~~~~~~ steamcommunity.com/id/StillNotVacBanned ~~~~~~~~~~~~;
+						echo ==============================================================;
+						echo ~~~~~~ Thank you to everyone who actively uses my hud! ~~~~~~~;
+						echo ==============================================================;"
 	     "
-	    "tooltip"	"Special Thanks!"
+	    "tooltip"	"Update: January 5th 2018!"
 	}
 
 }

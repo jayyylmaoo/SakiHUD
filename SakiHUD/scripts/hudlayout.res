@@ -1,4 +1,6 @@
-#base "../scripts/crosshairs/crosshairs.res"
+#base "../scripts/crosshairs/garm3n_crosshairs.res"
+#base "../scripts/crosshairs/knuckles_crosses.res"
+#base "../scripts/crosshairs/fog_crosshairs.res"
 
 "Resource/HudLayout.res"
 {
