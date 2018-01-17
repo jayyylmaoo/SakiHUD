@@ -168,7 +168,7 @@
 						echo ~~~~~~ Thank you to everyone who actively uses my hud! ~~~~~~~;
 						echo ==============================================================;"
 	     "
-	    "tooltip"	"Update: January 5th 2018!"
+	    "tooltip"	"Update: January 17th 2018!"
 	}
 
 }
