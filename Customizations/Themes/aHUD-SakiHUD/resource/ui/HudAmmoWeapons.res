@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"DemiBold46"
+		"font"			"aRegular55"
 		"fgcolor"		"SakiAmmo"
 		"xpos"	"1"
 		"ypos"	"0"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"DemiBold46"
+		"font"			"aRegular55"
 		"fgcolor"		"Garm3nBlack"
 		"xpos"	"3"
 		"ypos"	"2"
@@ -105,7 +105,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"DemiBold46"
+		"font"			"aRegular55"
 		"fgcolor"		"SakiAmmo"
 		"xpos"	"70"
 		"ypos"	"0"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"DemiBold46"
+		"font"			"aRegular55"
 		"fgcolor"		"Garm3nBlack"
 		"xpos"	"72"
 		"ypos"	"2"

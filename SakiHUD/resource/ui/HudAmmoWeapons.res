@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"	"Book34"
+		"font"			"Book34"
 		"fgcolor"		"SakiAmmoRes"
 		"xpos"	"104"
 		"ypos"			"9"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"	"Book34"
+		"font"			"Book34"
 		"fgcolor"		"Garm3nBlack"
 		"xpos"	"105"
 		"ypos"			"10"
