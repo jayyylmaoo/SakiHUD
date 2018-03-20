@@ -4,6 +4,6 @@ Scheme
 {
 	Colors
 	{
-		// Override colours here.
+		"tooltipText"			"254 196 0 255"
 	}
 }

@@ -6,27 +6,27 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		        Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        	Linear 0.2 0.4
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	                FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueCam 					FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 					FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueSpec 				FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 				FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueTour  				FgColor		"SakiOverheal"           Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  				FgColor		"AnniversaryOverheal"           Accel 0.0 0.0
 
-	Animate	xHairDot 	                                FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	xHairDot 	                                FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	xHairNormal 	                            FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	xHairNormal 	                            FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	xHairThin 	                                FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	xHairThin 	                                FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	xHairThinOutline	                        FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	xHairThinOutline	                        FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	xHairRequest 	                            FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	xHairRequest 	                            FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	xHairCircle	                                FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	xHairCircle	                                FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
-	Animate	xHairDotOutline 	                        FgColor		"SakiOverheal"	         Accel 0.0 0.0
+	Animate	xHairDotOutline 	                        FgColor		"AnniversaryOverheal"	         Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }

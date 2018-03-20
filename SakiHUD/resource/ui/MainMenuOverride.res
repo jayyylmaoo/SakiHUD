@@ -301,27 +301,27 @@
 	"hudCredits"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"hudCredits"
+		"fieldName"		"hudCredits"
 		"xpos"			"50"
 		"ypos"			"45"
-		"zpos"		"1"
-		"wide"		"200"
-		"tall"		"35"
-		"visible"	"1"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"35"
+		"visible"		"1"
 
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
-			"fieldName"	"SubButton"
+			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"		"10"
-			"tall"		"35"
+			"wide"			"10"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"textinsetx"	"10"
 			"font"				"Biko20"
-			"textAlignment"	"west"
+			"textAlignment"		"west"
 			"auto_wide_tocontents" "1"
 
 			"border_default"	"NoBorder"
@@ -330,11 +330,51 @@
 
 			"defaultFgColor_override"	"textColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "textHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "blank"
 		}
+	}
+	
+	"Anniversary"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Anniversary"
+		"xpos"			"60"
+		"ypos"			"55"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"35"
+		"visible"		"1"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"10"
+			"tall"			"35"
+			"visible"		"1"
+			"enable"		"1"
+			"textinsetx"	"10"
+			"font"			"Biko10"
+			"labelText"		"Anniversary"
+			"textAlignment"	"west"
+			"auto_wide_tocontents"	"1"
+			
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override"	"textColor"
+			"defaultBgColor_override"	"blank"
+			"armedFgColor_override"		"AnniversaryGold"
+			"armedBgColor_override"		"blank"
+			"depressedFgColor_override"	"255 255 255 200"
+			"depressedBgColor_override"	"blank"
+		}	
 	}
 
 	"MOTD_ShowButtonPanel"
@@ -861,7 +901,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "textHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
@@ -1143,7 +1183,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "textHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
@@ -1215,7 +1255,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "textHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
@@ -1404,7 +1444,7 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"textColor"
-		"armedFgColor_override" "quitHover"
+		"armedFgColor_override" "AnniversaryGold"
 		"depressedFgColor_override" "textColor"
 		"defaultBgColor_override"	"blank"
 		"armedBgColor_override"		"blank"
@@ -1805,7 +1845,7 @@
 
 		"defaultFgColor_override"	"iconColor"
 		"defaultBgColor_override" "blank"
-		"armedFgColor_override" "iconHover"
+		"armedFgColor_override" "AnniversaryGold"
 		"armedBgColor_override" "blank"
 		"depressedFgColor_override" "iconColor"
 		"depressedBgColor_override" "blank"
@@ -1862,7 +1902,7 @@
 
 		"defaultFgColor_override"	"iconColor"
 		"defaultBgColor_override" "blank"
-		"armedFgColor_override" "iconHover"
+		"armedFgColor_override" "AnniversaryGold"
 		"armedBgColor_override" "blank"
 		"depressedFgColor_override" "iconColor"
 		"depressedBgColor_override" "blank"
@@ -1916,7 +1956,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "iconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -1957,7 +1997,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "iconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -1997,7 +2037,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "iconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -2037,7 +2077,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "iconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -2125,7 +2165,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "otherIconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2196,7 +2236,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "otherIconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2267,7 +2307,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "otherIconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2321,7 +2361,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "otherIconHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2374,7 +2414,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "textHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"resumeBG"
 			"armedBgColor_override"		"blank"
@@ -2445,7 +2485,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "textHover"
+			"armedFgColor_override" "AnniversaryGold"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"resumeBG"
 			"armedBgColor_override"		"blank"
@@ -2505,7 +2545,7 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"textColor"
-		"armedFgColor_override" "quitHover"
+		"armedFgColor_override" "AnniversaryGold"
 		"depressedFgColor_override" "textColor"
 		"defaultBgColor_override"	"blank"
 		"armedBgColor_override"		"blank"
@@ -2577,7 +2617,7 @@
 
 					"defaultFgColor_override"	"otherIconColor"
 					"defaultBgColor_override" "blank"
-					"armedFgColor_override" "otherIconHover"
+					"armedFgColor_override" "AnniversaryGold"
 					"armedBgColor_override" "blank"
 					"depressedFgColor_override" "otherIconColor"
 					"depressedBgColor_override" "blank"
@@ -2648,7 +2688,7 @@
 
 					"defaultFgColor_override"	"otherIconColor"
 					"defaultBgColor_override" "blank"
-					"armedFgColor_override" "otherIconHover"
+					"armedFgColor_override" "AnniversaryGold"
 					"armedBgColor_override" "blank"
 					"depressedFgColor_override" "otherIconColor"
 					"depressedBgColor_override" "blank"
@@ -2718,7 +2758,7 @@
 
 					"defaultFgColor_override"	"otherIconColor"
 					"defaultBgColor_override" "blank"
-					"armedFgColor_override" "otherIconHover"
+					"armedFgColor_override" "AnniversaryGold"
 					"armedBgColor_override" "blank"
 					"depressedFgColor_override" "otherIconColor"
 					"depressedBgColor_override" "blank"

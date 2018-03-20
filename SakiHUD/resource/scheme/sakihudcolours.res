@@ -1,3 +1,5 @@
+#base "../put_overrides_here/customcolours.res"
+
 Scheme
 {
 	Colors

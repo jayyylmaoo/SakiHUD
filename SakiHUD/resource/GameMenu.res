@@ -159,16 +159,16 @@
 	   "label" "SakiHUD"
 		"command"		"engine con_enable 1;showconsole;clear;
 						echo ==============================================================;
-						echo ~~~~~~~~~~~~~~~~~~~~ SakiHUD, by xJeebsx ~~~~~~~~~~~~~~~~~~~~~;
+						echo ~~~~~~~~~~~~~~~~~~~~ SakiHUD, by xjeebsx ~~~~~~~~~~~~~~~~~~~~~;
 						echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
 						echo ==============================================================;
 						echo ~~~~~~~~~~~~~~~~ github.com/xjeebsx/sakihud ~~~~~~~~~~~~~~~~~~;
-						echo ~~~~~~~~~ steamcommunity.com/id/StillNotVacBanned ~~~~~~~~~~~~;
+						echo ~~~~~~~~~ steamcommunity.com/id/StillNotVACBanned ~~~~~~~~~~~~;
 						echo ==============================================================;
 						echo ~~~~~~ Thank you to everyone who actively uses my hud! ~~~~~~~;
 						echo ==============================================================;"
 	     "
-	    "tooltip"	"Update: January 17th 2018!"
+	    "tooltip"	"Update: March 24th 2018!"
 	}
 
 }
