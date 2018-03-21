@@ -166,9 +166,9 @@
 						echo ~~~~~~~~~ steamcommunity.com/id/StillNotVACBanned ~~~~~~~~~~~~;
 						echo ==============================================================;
 						echo ~~~~~~ Thank you to everyone who actively uses my hud! ~~~~~~~;
-						echo ==============================================================;"
-	     "
-	    "tooltip"	"Update: March 24th 2018!"
+						echo ==============================================================;
+						play vo/scout_domination19.mp3"
+	    "tooltip"	"Update: March 21st 2018!"
 	}
 
 }

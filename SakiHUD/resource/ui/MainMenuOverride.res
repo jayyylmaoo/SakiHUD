@@ -901,7 +901,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "textHover"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
@@ -1183,7 +1183,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "textHover"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
@@ -1255,7 +1255,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "textHover"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
@@ -1444,7 +1444,7 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"textColor"
-		"armedFgColor_override" "AnniversaryGold"
+		"armedFgColor_override" "quitHover"
 		"depressedFgColor_override" "textColor"
 		"defaultBgColor_override"	"blank"
 		"armedBgColor_override"		"blank"
@@ -1845,7 +1845,7 @@
 
 		"defaultFgColor_override"	"iconColor"
 		"defaultBgColor_override" "blank"
-		"armedFgColor_override" "AnniversaryGold"
+		"armedFgColor_override" "iconHover"
 		"armedBgColor_override" "blank"
 		"depressedFgColor_override" "iconColor"
 		"depressedBgColor_override" "blank"
@@ -1902,7 +1902,7 @@
 
 		"defaultFgColor_override"	"iconColor"
 		"defaultBgColor_override" "blank"
-		"armedFgColor_override" "AnniversaryGold"
+		"armedFgColor_override" "iconHover"
 		"armedBgColor_override" "blank"
 		"depressedFgColor_override" "iconColor"
 		"depressedBgColor_override" "blank"
@@ -1956,7 +1956,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "iconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -1997,7 +1997,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "iconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -2037,7 +2037,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "iconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -2077,7 +2077,7 @@
 
 			"defaultFgColor_override"	"iconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "iconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "iconColor"
 			"depressedBgColor_override" "blank"
@@ -2165,7 +2165,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "otherIconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2236,7 +2236,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "otherIconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2307,7 +2307,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "otherIconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2361,7 +2361,7 @@
 
 			"defaultFgColor_override"	"otherIconColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "otherIconHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "otherIconColor"
 			"depressedBgColor_override" "blank"
@@ -2414,7 +2414,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "textHover"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"resumeBG"
 			"armedBgColor_override"		"blank"
@@ -2485,7 +2485,7 @@
 			"paintbackground"	"1"
 
 			"defaultFgColor_override"	"textColor"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "textHover"
 			"depressedFgColor_override" "textColor"
 			"defaultBgColor_override"	"resumeBG"
 			"armedBgColor_override"		"blank"
@@ -2545,7 +2545,7 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"textColor"
-		"armedFgColor_override" "AnniversaryGold"
+		"armedFgColor_override" "textHover"
 		"depressedFgColor_override" "textColor"
 		"defaultBgColor_override"	"blank"
 		"armedBgColor_override"		"blank"
@@ -2617,7 +2617,7 @@
 
 					"defaultFgColor_override"	"otherIconColor"
 					"defaultBgColor_override" "blank"
-					"armedFgColor_override" "AnniversaryGold"
+					"armedFgColor_override" "otherIconHover"
 					"armedBgColor_override" "blank"
 					"depressedFgColor_override" "otherIconColor"
 					"depressedBgColor_override" "blank"
@@ -2688,7 +2688,7 @@
 
 					"defaultFgColor_override"	"otherIconColor"
 					"defaultBgColor_override" "blank"
-					"armedFgColor_override" "AnniversaryGold"
+					"armedFgColor_override" "otherIconHover"
 					"armedBgColor_override" "blank"
 					"depressedFgColor_override" "otherIconColor"
 					"depressedBgColor_override" "blank"
@@ -2758,7 +2758,7 @@
 
 					"defaultFgColor_override"	"otherIconColor"
 					"defaultBgColor_override" "blank"
-					"armedFgColor_override" "AnniversaryGold"
+					"armedFgColor_override" "otherIconHover"
 					"armedBgColor_override" "blank"
 					"depressedFgColor_override" "otherIconColor"
 					"depressedBgColor_override" "blank"
