@@ -11,7 +11,7 @@ Scheme
 		
 		// Health
 		"SakiLow"				"255 255 102 255"
-		"SakiOverheal"			"43 255 128 255"
+		"SakiOverheal"			"28 226 129 255"
 		
 		// Anniversary Edition Colour
 		"AnniversaryOverheal"	"254 196 0 255"

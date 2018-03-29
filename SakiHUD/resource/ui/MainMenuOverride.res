@@ -330,52 +330,52 @@
 
 			"defaultFgColor_override"	"textColor"
 			"defaultBgColor_override" "blank"
-			"armedFgColor_override" "AnniversaryGold"
+			"armedFgColor_override" "textHover"
 			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "255 255 255 200"
 			"depressedBgColor_override" "blank"
 		}
 	}
 	
-	"Anniversary"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Anniversary"
-		"xpos"			"60"
-		"ypos"			"55"
-		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"35"
-		"visible"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"10"
-			"tall"			"35"
-			"visible"		"1"
-			"enable"		"1"
-			"textinsetx"	"10"
-			"font"			"Biko10"
-			"labelText"		"Anniversary"
-			"textAlignment"	"west"
-			"auto_wide_tocontents"	"1"
-			
-			"border_default"	"NoBorder"
-			"border_armed"		"NoBorder"
-			"paintbackground"	"1"
-			
-			"defaultFgColor_override"	"textColor"
-			"defaultBgColor_override"	"blank"
-			"armedFgColor_override"		"AnniversaryGold"
-			"armedBgColor_override"		"blank"
-			"depressedFgColor_override"	"255 255 255 200"
-			"depressedBgColor_override"	"blank"
-		}	
-	}
+//	"Anniversary"
+//	{
+//		"ControlName"	"EditablePanel"
+//		"fieldName"		"Anniversary"
+//		"xpos"			"60"
+//		"ypos"			"55"
+//		"zpos"			"1"
+//		"wide"			"200"
+//		"tall"			"35"
+//		"visible"		"1"
+	
+//		"SubButton"
+//		{
+//			"ControlName"	"CExImageButton"
+//			"fieldName"		"SubButton"
+//			"xpos"			"0"
+//			"ypos"			"0"
+//			"wide"			"10"
+//			"tall"			"35"
+//			"visible"		"1"
+//			"enable"		"1"
+//			"textinsetx"	"10"
+//			"font"			"Biko10"
+//			"labelText"		"Anniversary"
+//			"textAlignment"	"west"
+//			"auto_wide_tocontents"	"1"
+
+//			"border_default"	"NoBorder"
+//			"border_armed"		"NoBorder"
+//			"paintbackground"	"1"
+
+//			"defaultFgColor_override"	"textColor"
+//			"defaultBgColor_override"	"blank"
+//			"armedFgColor_override"		"AnniversaryGold"
+//			"armedBgColor_override"		"blank"
+//			"depressedFgColor_override"	"255 255 255 200"
+//			"depressedBgColor_override"	"blank"
+//		}	
+//	}
 
 	"MOTD_ShowButtonPanel"
 	{
@@ -5125,7 +5125,7 @@
 		}
 	}
 	
-		"RankModelPanel"
+	"RankModelPanel"
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankModelPanel"
@@ -5153,14 +5153,67 @@
 		"zpos"										"-52"
 		"wide"										"320"
 		"tall"										"145"
-		"visible"									"1"
+		"visible"									"0"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 
 		"matchgroup"								"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"			"350"
 
 		"show_model"								"0"
+		"show_type"									"1"
 	}
-
+	
+	"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"c-290"
+		"ypos"			"94"
+		"zpos"			"-99"
+		"wide"			"260"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"wrap"			"1"
+		"textinsetx"	"40"
+		"textinsety"	"10"
+		
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"north-west"
+		"use_proportional_insets"	"1"
+	}
+	
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"c-285"
+		"ypos"			"107"
+		"zpos"			"-99"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}
+	
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"c-290"
+		"ypos"			"94"
+		"zpos"			"-100"
+		"wide"			"260"
+		"tall"			"60"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"	"1"
+	}
 }

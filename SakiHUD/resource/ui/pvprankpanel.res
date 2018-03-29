@@ -219,11 +219,11 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"0"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"-30"
 			"ypos"			"13"
 			"wide"			"170"
 			"zpos"			"100"
@@ -233,7 +233,7 @@
 			"font"			"NormalCode10"
 			"fgcolor_override"	"White"
 			"textAlignment"	"center"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -242,6 +242,50 @@
 				"ypos"	"4"
 				"wide"	"f0"
 				"textAlignment"	"north-west"
+			}
+			
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+		}
+		
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"75"
+			"ypos"			"18"
+			"zpos"			"100"
+			"wide"			"195"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"NormalCode10"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+			}
+			
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+			
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 

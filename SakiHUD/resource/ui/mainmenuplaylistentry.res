@@ -16,6 +16,22 @@
 		"image"			""
 	}
 	
+	"PlayListDropShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayListDropShadow"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"InnerShadowBorderThin"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+	}
+	
 	"BGColor"
 	{
 		"ControlName"	"EditablePanel"
@@ -30,6 +46,23 @@
 		
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
+	}
+	
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"rs1-6"
+		"ypos"			"2"
+		"zpos"			"51"
+		"wide"			"122"
+		"tall"			"15"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent"	"1"
 	}
 	
 	"ToolTipHack"
@@ -80,7 +113,7 @@
 		"depressedBgColor_override"	"Blank"
 		
 		"defaultFgColor_override"	"White"
-		"armedFgColor_Override"		"AnniversaryGold"
+		"armedFgColor_Override"		"textHover"
 		"depressedFgColor_override"	"White"
 	}
 	

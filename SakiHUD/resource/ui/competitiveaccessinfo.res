@@ -372,7 +372,7 @@
 				"image"			"checkmark"
 				"drawcolor_override"	"0 255 0 255"
 			}
-		}
+}
 
 		"Option2Label"
 		{
