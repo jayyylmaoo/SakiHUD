@@ -168,7 +168,7 @@
 						echo ~~~~~~ Thank you to everyone who actively uses my hud! ~~~~~~~;
 						echo ==============================================================;
 						play vo/scout_domination19.mp3"
-	    "tooltip"	"Update: March 29th 2018!"
+	    "tooltip"	"Update: March 31st 2018!"
 	}
 
 }

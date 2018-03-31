@@ -7,12 +7,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"	"0 0 0 50"
+	//	"bgcolor_override"	"0 0 0 50"
 	}
 
 
@@ -60,12 +60,25 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"56 53 49 255"
+			"fgcolor"		"White"
 
 			"proportionaltoparent"	"1"
 		}
 	}
 
+	"StreamBackground"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"StreamBackground"
+		"xpos"				"5"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"290"
+		"tall"				"50"
+		"visible"			"1"
+		"enabled"			"1"
+		"border"			"MaterialBackground"
+	}
 
 	"PreviewImage"
 	{
@@ -96,7 +109,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"White"
 	}
 
 	"TextDescriptionLabel"
@@ -114,7 +127,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"White"
 	}
 
 	"ViewerCountLabel"
@@ -132,15 +145,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"Red"
 	}
 
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Stream_URLButton"
-		"xpos"			"5"
-		"ypos"			"0"
+		"xpos"			"6"
+		"ypos"			"1"
 		"zpos"			"100"
 		"wide"			"290"
 		"tall"			"50"
@@ -158,9 +171,9 @@
 
 		"border_armed"		"TeamMenuBorder"
 			
-		"defaultFgColor_override" "0 0 0 0"
-		"defaultBgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"armedBgColor_override"	"0 0 0 0"
+		"defaultFgColor_override" 	"0 0 0 0"
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"armedBgColor_override"		"0 0 0 0"
 	}
 }

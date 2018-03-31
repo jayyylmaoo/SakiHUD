@@ -129,7 +129,7 @@
 		"Checkbutton"
 		{
 			"ControlName"		"CExCheckButton"
-			"fieldName"		"Checkbutton"
+			"fieldName"			"Checkbutton"
 			"xpos"		"r27"
 			"ypos"		"-1"
 			"zpos"		"3"

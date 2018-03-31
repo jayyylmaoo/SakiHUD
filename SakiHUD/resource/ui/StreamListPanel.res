@@ -25,9 +25,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"PaintBackgroundType" "2"
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"184 108 55 255"
+			"paintbackground" "0"
+			"border"		"MaterialPurple"
+		//	"fgcolor_override"	"235 226 202 255"
+		//	"bgcolor_override"	"184 108 55 255"
 		}
 	}
 		
@@ -37,7 +38,7 @@
 		"fieldName"		"CloseButton"
 		"xpos"			"282"
 		"ypos"			"4"
-		"zpos"			"10"
+		"zpos"			"100"
 		"wide"			"14"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -45,8 +46,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labeltext"		"X"
+		"font"			"Biko18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -61,28 +62,13 @@
 			
 		"paintbackground"	"0"
 			
-		//"defaultFgColor_override" "235 226 202 255"
-		//"armedFgColor_override" "46 43 42 255"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-			
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"200 80 60 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"close_button"
-			"scaleImage"	"1"
-		}				
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override"	"0 0 0 0"
+		
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"textHover"
+		"depressedFgColor_override" "White"			
 	}
 
 	"TitleLabel"
@@ -100,7 +86,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"White"
 	}
 
 	"Stream1"
@@ -204,9 +190,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
-		"defaultFgColor_override" "235 226 202 255"
-		"defaultBgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "235 226 202 255"
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override"		"0 0 0 0"
+		"depressedBgColor_override"	"0 0 0 0"
+		
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"textHover"
+		"depressedFgColor_override" "White"
 	}	
 }

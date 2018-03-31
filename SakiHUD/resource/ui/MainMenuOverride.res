@@ -2096,7 +2096,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"MaterialDarkBG"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
@@ -5148,9 +5148,9 @@
 	{
 		"ControlName"								"CPvPRankPanel"
 		"fieldName"									"RankPanel"
-		"xpos"										"10"
-		"ypos"										"10"
-		"zpos"										"-52"
+		"xpos"										"160"
+		"ypos"										"-14"
+		"zpos"										"10002"
 		"wide"										"320"
 		"tall"										"145"
 		"visible"									"0"

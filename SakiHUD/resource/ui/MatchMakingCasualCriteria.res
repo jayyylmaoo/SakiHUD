@@ -57,10 +57,10 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
 			"xpos"			"rs1-49"
-			"ypos"			"49"
+			"ypos"			"42"
 			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
+			"wide"			"22"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -77,14 +77,29 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+			
+			"paintbackground"	"0"
+			
+			"border_default"	"MaterialLightBG"
+			"border_armed"		"MaterialSaki"
+			
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"0 0 0 0"
+			"depressedBgColor_override"	"0 0 0 0"
+			
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -100,10 +115,10 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
 			"xpos"			"rs1-29"
-			"ypos"			"49"
+			"ypos"			"42"
 			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
+			"wide"			"22"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -120,14 +135,29 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+			
+			"paintbackground"	"0"
+			
+			"border_default"	"MaterialLightBG"
+			"border_armed"		"MaterialSaki"
+			
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"0 0 0 0"
+			"depressedBgColor_override"	"0 0 0 0"
+			
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override"	"White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -142,15 +172,15 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
-			"xpos"			"rs1-9"
+			"xpos"			"9999"
 			"ypos"			"49"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"?"
 			"font"			"HudFontSmallBold"
@@ -169,7 +199,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"Title"
-			"xpos"		"10"
+			"xpos"		"9999"
 			"ypos"		"47"
 			"zpos"		"0"
 			"wide"		"f0"
@@ -187,15 +217,15 @@
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
 			"xpos"		"10"
-			"ypos"		"33"
+			"ypos"		"47"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanDark"
+			"font"			"Biko20"
+			"fgcolor_override"	"White"
 		
 			"mouseinputenabled"	"1"
 		}
@@ -243,12 +273,13 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"65"
 			"wide"			"f15"
-			"tall"			"f65"
+			"tall"			"f40"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
 
-			"border"		"MainMenuBGBorder"
+			"border"		"NoBorder"
+			"paintborder"	"0"
 
 			"ScrollBar"
 			{
@@ -264,7 +295,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"White"
 				}
 		
 				"UpButton"

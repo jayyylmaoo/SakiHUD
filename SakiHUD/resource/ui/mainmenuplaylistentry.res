@@ -106,7 +106,7 @@
 		"paintbackground"		"0"
 		
 		"border_default"		"Blank"
-		"border_armed"			"Blank"
+		"border_armed"			"MaterialLightBG"
 		
 		"default_BgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"

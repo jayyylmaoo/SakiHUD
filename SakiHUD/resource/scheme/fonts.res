@@ -2637,6 +2637,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"NumbersBold10"
+		{
+			"1"
+			{
+				"name"		"NovecentoNumbersBold"
+				"tall"		"10"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 
 		"NumbersBold19OT"
 		{
@@ -2701,6 +2712,28 @@ Scheme
 			{
 				"name"		"NovecentoNumbersMedium"
 				"tall"		"13"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"NumbersMedium10"
+		{
+			"1"
+			{
+				"name"		"NovecentoNumbersMedium"
+				"tall"		"10"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"NumbersNumbersSaki10"
+		{
+			"1"
+			{
+				"name"		"NovecentoNumbersSaki"
+				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3334,6 +3367,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"
+			}
+		}
+		
 		GameUIButtons
 		{
 			"1"	//[$X360]
@@ -3576,6 +3622,19 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"CheckBox1"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		// this is the symbol font
 		"Marlett"
 		{
@@ -4933,6 +4992,11 @@ Scheme
 		{
 			"font" "resource/fonts/crosshair.ttf"
 			"name" "crosshair"
+		}
+		"23" 
+		{
+			"font" "resource/fonts/NovecentoNumbersSaki.ttf"
+			"name" "NovecentoNumbersSaki"
 		}
 	}
 }

@@ -231,7 +231,7 @@ Scheme
 		// Menu colors
 			// Main Menu
 				"textColor"						"236 240 241 255"
-				"textHover"						"46 204 113 255"
+				"textHover"						"0 133 199 255"
 				"quitHover"						"231 76 60 255"
 				"motdBG"						"211 84 0 255"
 				"motdBGActive"					"230 126 34 255"
@@ -244,9 +244,9 @@ Scheme
 				"playTextHover"					"155 89 182 255"
 				"play"							"236 240 241 255"
 				"iconColor"						"29 29 29 255"
-				"iconHover"						"46 204 113 255"
+				"iconHover"						"0 133 199 255"
 				"tooltipBG"						"29 29 29 255"
-				"tooltipText"					"46 204 113 255"
+				"tooltipText"					"0 133 199 255"
 
 			// Secondary Colors
 
@@ -267,7 +267,7 @@ Scheme
 					"otherBorder"				"26 188 156 255"
 					"other"						"236 240 241 255"
 					"otherIconColor"			"29 29 29 255"
-					"otherIconHover"			"26 188 156 255"
+					"otherIconHover"			"0 133 199 255"
 
 				// In-game Only
 					"resumeBG"					"0 0 0 10"

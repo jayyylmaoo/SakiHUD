@@ -19,14 +19,14 @@
 		"ControlName"	"Label"
 		"fieldName"		"Title"
 		"xpos"			"8"
-		"ypos"			"20"
+		"ypos"			"40"
 		"zpos"			"99"
 		"wide"			"f0"
-		"tall"			"20"
+		"tall"			"40"
 		"proportionaltoparent"	"1"
 		"labelText"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"west"
-		"font"			"Biko22"
+		"font"			"Biko35"
 		"fgcolor_override"	"White"
 		
 		"AllCaps"		"1"
@@ -61,7 +61,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"Biko10"
+		"font"			"Biko18"
 		"textAlignment"	"center"
 		"textinsety"	"2"
 		"dulltext"		"0"
@@ -81,14 +81,14 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 		
 		"border_default"		"Blank"
-		"border_armed"			"Blank"
+		"border_armed"			"MaterialLightBG"
 		
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
 		"depressedBgColor_override"	"Blank"
 		
 		"defaultFgColor_override"	"white"
-		"armedFgColor_override"		"AnniversaryGold"
+		"armedFgColor_override"		"textHover"
 		"depressedFgColor_override"	"White"
 	}
 }

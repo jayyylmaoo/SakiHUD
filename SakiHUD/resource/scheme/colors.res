@@ -68,7 +68,10 @@ Scheme
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
-		"Purple"				"137 69 99 255"
+		"Purple"			"100 65 164 255"
+		"DarkBG"			"15 15 15 255"
+		"LightBG"			"50 50 50 255"
+		"CustomBlue"		"0 133 199 255"
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"

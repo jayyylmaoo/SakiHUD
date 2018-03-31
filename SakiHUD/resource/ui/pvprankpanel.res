@@ -4,10 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -180,12 +178,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"170"
-		"tall"			"f40"
-		"visible"		"0"
-		"PaintBackgroundType"	"0"
-		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -200,37 +196,21 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"15"
-			"ypos"			"0"
-			"wide"			"140"
-			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"NormalCode14"
-			"fgcolor_override"	"White"
-			"textAlignment"	"center"
-			"labelText"		"%name%"
-			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"visible"	"0"
-			}
+			"xpos"			"9999"
 		}
 
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"-30"
-			"ypos"			"13"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"wide"			"170"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"NormalCode10"
+			"font"			"Biko10"
 			"fgcolor_override"	"White"
 			"textAlignment"	"center"
 			"labelText"		"%desc1%"
@@ -240,8 +220,8 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"wide"	"f0"
-				"textAlignment"	"north-west"
+				"wide"	"170"
+				"tall"	"20"
 			}
 			
 			"fonts"
@@ -252,6 +232,29 @@
 			}
 		}
 		
+		"LevelLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"LevelLabel"
+			"xpos"			"-30"
+			"ypos"			"13"
+			"wide"			"170"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"White"
+			"textAlignment"	"center"
+			"labelText"		"LEVEL :"
+			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"visible"		"0"
+			}
+		}
+		
 		"DescLine2"
 		{
 			"ControlName"	"CAutoFittingLabel"
@@ -259,25 +262,30 @@
 			"xpos"			"75"
 			"ypos"			"18"
 			"zpos"			"100"
-			"wide"			"195"
-			"tall"			"20"
+			"wide"			"50"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"NormalCode10"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
-			"labelText"		"%desc2%"
+			"font"			"NumbersNumbersSaki10"
+			"fgcolor_override"	"White"
+			"textAlignment"		"north-west"
+			"labelText"			"%desc2%"
 			"proportionaltoparent"	"1"
 			
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"font"	"HudFontSmallestBold"
+				"wide"	"195"
+				"tall"	"20"
+				"textAlignment"	"north-west"
+				"textinsetx"	"0"
 			}
 			
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
+				"0"		"NumbersNumbersSaki10"
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}
@@ -381,9 +389,7 @@
 
 					if_mini
 					{
-						"xpos"			"0"
-						"ypos"			"rs1-10"
-						"wide"			"p1"
+					"tall"		"7"
 					}
 
 					"ProgressBar"
@@ -398,7 +404,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
+						"fgcolor_override"	"0 0 0 0"
 						"bgcolor_override"	"0 0 0 0"
 					}
 
@@ -413,7 +419,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"CustomBlue"
 					}
 
 					"Frame"
