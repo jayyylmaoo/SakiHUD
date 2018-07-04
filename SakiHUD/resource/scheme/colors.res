@@ -58,7 +58,7 @@ Scheme
 		"Garm3nOldGreen"			"72 152 32 255" 
 		"Garm3nOrange"			"255 125 0 255" 
 		"Garm3nPink"			"255 35 235 255" 
-		"Garm3nRed"			"255 0 0 255"
+		"Garm3nRed"				"255 0 0 255"
 		"Garm3nRedTeam"			"255 0 0 255"
 		"Garm3nWhite"			"255 255 255 255"
 		"Garm3nYellow"			"255 255 0 255"
