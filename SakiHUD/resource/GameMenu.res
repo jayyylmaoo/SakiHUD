@@ -159,16 +159,16 @@
        "label" "SakiHUD"
         "command"       "engine con_enable 1;showconsole;clear;
                         echo ==============================================================;
-                        echo ~~~~~~~~~~~~~~~~~~~~ SakiHUD, by xjeebsx ~~~~~~~~~~~~~~~~~~~~~;
+                        echo ~~~~~~~~~~~~~~~~~~~~~ SakiHUD, by jeebs ~~~~~~~~~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                         echo ==============================================================;
                         echo ~~~~~~~~~~~~~~~~ github.com/xjeebsx/sakihud ~~~~~~~~~~~~~~~~~~;
-                        echo ~~~~~~~~~ steamcommunity.com/id/StillNotVACBanned ~~~~~~~~~~~~;
+                        echo ~~~~~~~~~~~~~ steamcommunity.com/id/-AutoAim- ~~~~~~~~~~~~~~~~;
                         echo ==============================================================;
                         echo ~~~~~~ Thank you to everyone who actively uses my hud! ~~~~~~~;
                         echo ==============================================================;
                         play vo/scout_domination19.mp3"
-                        "tooltip"   "Update: July 4th 2018!"
+                        "tooltip"   "Update: July 31st 2018!"
     }
 
 }

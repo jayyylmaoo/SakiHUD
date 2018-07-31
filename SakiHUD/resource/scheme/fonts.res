@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Verdana"
+				"name" "Novecentowide-Medium"
 				"tall" "6"
 				"weight" "400"
 				"additive" "0"
@@ -2542,7 +2542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"19"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2554,7 +2554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"34"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2565,7 +2565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"32"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2576,7 +2576,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"18"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2587,7 +2587,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"16"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2598,7 +2598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"20"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2609,7 +2609,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"11"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2620,7 +2620,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface-Numbers"
+				"name"		"Surface-Medium"
 				"tall"		"46"
 				"antialias"	"1"
 				"additive"	"0"
@@ -2833,7 +2833,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"crosshair"
+				"name"		"Crosshairs Regular"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2845,7 +2845,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"crosshair"
+				"name"		"Crosshairs Regular"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2857,7 +2857,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"yacrosshair"
+				"name"		"Crosshairs Regular"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2869,7 +2869,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"crosshair"
+				"name"		"Crosshairs Regular"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2881,7 +2881,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"crosshair"
+				"name"		"Crosshairs Regular"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2893,7 +2893,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"crosshair"
+				"name"		"Crosshairs Regular"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4190,7 +4190,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -4317,7 +4317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -4328,7 +4328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4338,7 +4338,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -4351,7 +4351,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4580,7 +4580,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -4591,7 +4591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4602,7 +4602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Novecentowide-Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -4980,8 +4980,8 @@ Scheme
 		}
 		"20" 
 		{
-			"font" "resource/fonts/Surface_Numbers.otf"
-			"name" "Surface-Numbers"
+			"font" "resource/fonts/Surface-Medium.otf"
+			"name" "Surface-Medium"
 		}
 		"21" 
 		{
@@ -4991,12 +4991,17 @@ Scheme
 		"22" 
 		{
 			"font" "resource/fonts/crosshair.ttf"
-			"name" "crosshair"
+			"name" "Crosshairs Regular"
 		}
 		"23" 
 		{
 			"font" "resource/fonts/NovecentoNumbersSaki.ttf"
 			"name" "NovecentoNumbersSaki"
+		}
+		"24"
+		{
+			"font" "resource/fonts/Novecentowide-Medium.otf"
+			"name" "Novecentowide-Medium"
 		}
 	}
 }
